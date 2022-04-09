@@ -8,10 +8,16 @@
 int main(void)
 {
 	int n;
+	int ch;
 
-	for (n = 20; n < 36; n++)
+	for (n = 20; n < 30; n++)
 	{
 		putchar(n);
+	}
+
+	for (ch = 'a'; ch < 'f'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
