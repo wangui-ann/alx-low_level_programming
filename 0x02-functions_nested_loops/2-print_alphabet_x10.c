@@ -2,7 +2,8 @@
 
 /**
 *print_alphabet_x10 - Check holberton
-*Description: function users _putchar function to print alphabet in lowercase 10 times
+*Description: function users _putchar function to print alphabet
+*in lowercase 10 times
 *Return: nothing
 */
 
@@ -10,7 +11,7 @@ void print_alphabet_x10(void)
 {
 	char i;
 	int j;
-	
+
 	for (j = 0; j < 10; j++)
 	{
 		for (i = 'a'; i <= 'z'; i++)
