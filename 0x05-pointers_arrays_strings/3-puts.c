@@ -4,6 +4,7 @@
 /**
  * _puts - prints a string to stdout
  * followed by a new line
+ * @str: this is the string to be printed
  * Return: void
  */
 
