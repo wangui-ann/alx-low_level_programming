@@ -1,4 +1,5 @@
 #include "main.h"
+#include <<stdio.h>
 
 /**
  * print_array - this function is for the array to be printed
