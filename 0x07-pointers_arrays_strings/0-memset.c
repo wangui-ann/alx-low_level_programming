@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _memset - main function for setting the memory
@@ -10,7 +11,7 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	memset n, s, b;
+	memset(s, b, n);
 
 	return (s);
 }
