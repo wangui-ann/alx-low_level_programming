@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strprk - locates the first occurence of a character
+ * _strpbrk - locates the first occurence of a character
  * @s: this is the string to be scanned
  * @accept: this is the source character
  * Return: returns to dest
