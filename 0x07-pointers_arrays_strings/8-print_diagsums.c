@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagsums: prints two diagonals
+ * print_diagsums - prints two diagonals
  * @a: square matrix where we print the diagonals
  * @size: size of the matrix
  */
