@@ -1,6 +1,7 @@
 #include "main.h"
 
-/***factorial - This is the main gives the length of string
+/**
+ *factorial - This is the main gives the length of string
  * @n: This is the interger that has been entered
  * Return: always success
  */
