@@ -1,14 +1,15 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - multiplies two positive numbers
- * @argc: n arguments
+ * @argc: no of arguments
  * @argv: args
- * Return: int
+ * Return: nothing
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv[])
 {
 	int num1, num2, num3;
 
