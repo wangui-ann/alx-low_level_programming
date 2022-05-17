@@ -43,7 +43,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - Returns the division of two numbers.
+ * op_mod - Returns the division of two numbers.
  * @a: first no
  * @b: second no
  * Return: remainder of the division
