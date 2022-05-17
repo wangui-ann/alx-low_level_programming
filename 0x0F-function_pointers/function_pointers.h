@@ -5,7 +5,8 @@
 /**
  * File: ALX
  * Author: wangui-ann
- * Description: this is the mean header file; it contains all declarations of functions.
+ * Description: this is the mean header file;
+ * it contains all declarations of functions.
  */
 
 int _putchar(char c);
