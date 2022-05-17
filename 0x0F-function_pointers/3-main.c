@@ -7,7 +7,7 @@
  * main - prints the results of operations
  * @argc: no of arguents supplied
  * @argv: array of pointers to the arguments
- * return: always 0
+ * Return: always 0
  */
 
 int main(int __attribute__((__unused__)) argc, char *argv[])
