@@ -11,17 +11,18 @@
 #include <stdarg.h>
 
 /**
- * struct printer - a new struct type that defines a printer
+ * struct printer - defines a printer
  * @symbol: Represents a data type
  * @print: prints a datatype
+ * Description: struct printer is a new struct type that defines a printer.
  */
 
 typedef struct printer
 {
 	char *symbol;
 	void (*print)(va_list arg);
-}
-printer_t;
+
+} printer_t;
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
