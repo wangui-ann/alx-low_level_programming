@@ -17,9 +17,9 @@
 typedef struct printer
 {
 	char *symbol;
-	coid (*print)(va_list arg);
+	void (*print)(va_list arg);
 }
-printer _t;
+printer_t;
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
