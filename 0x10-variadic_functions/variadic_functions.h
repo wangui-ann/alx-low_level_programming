@@ -1,8 +1,8 @@
-#ifndef VARIADIC_FUNCTIONS
-#define VARIADIC_FUNCTIONS
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 
 /**
- * File: VARIADIC_FUNCTIONS
+ * File: variadic_functions.h
  * Author: wangui-ann
  * Description: header files that contains all functions of the program
  */
@@ -10,7 +10,7 @@
 #include <stdarg.h>
 
 /**
- * struct_printer - defines a printer
+ * struct printer - a struct type that defines a printer
  * @symbol: Represents a data type
  * @print: prints a datatype
  */
