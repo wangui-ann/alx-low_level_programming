@@ -7,11 +7,10 @@
  * Description: header files that contains all functions of the program
  */
 
-#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
- * struct printer - defines a printer
+ * struct printer - A new struct type defining a printer
  * @symbol: Represents a data type
  * @print: prints a datatype
  * Description: struct printer is a new struct type that defines a printer.
