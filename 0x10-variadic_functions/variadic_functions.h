@@ -13,7 +13,6 @@
  * struct printer - A new struct type defining a printer
  * @symbol: Represents a data type
  * @print: prints a datatype
- * Description: struct printer is a new struct type that defines a printer.
  */
 
 typedef struct printer
