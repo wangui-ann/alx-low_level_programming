@@ -1,6 +1,15 @@
-/* Filename: lib_mylib.c */
-#include <stdio.h>
-void fun(void)
+#include "main.h"
+/**
+* _abs - prints the absolute value of a number
+*@i: number targeted
+*Return: returns 0
+*/
+int _abs(int i)
 {
-	int _abs(int n);
+if (i > 0)
+return (i);
+else if (i < 0)
+return (-i);
+else
+return (0);
 }
