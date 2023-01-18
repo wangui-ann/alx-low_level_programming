@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_djb2 - hash function generates a djb2
+ * keyindex - hash function generates a djb2
  * @str: pointer to chars a hash
  * Return: hash key
  */
